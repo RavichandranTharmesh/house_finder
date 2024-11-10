@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Houses in Sri Lanka</title>
+    <link rel="stylesheet" href="availablehouses.css">
+</head>
+
+<body>
+      <!-- Header Section -->
+      <header>
+        <div class="logo">
+            <h1>HouseFinder</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="availablehouse.html">Available Houses</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="login.html">Log out</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Container -->
+    <section id="houses">
+         <h2>Available Houses</h2>
+        <div class="houses-list">
+            <div class="house-card">
+                <img src="modern in jaffna.jpg" alt="House in Northern Province">
+                <h3>Modern Villa - Jaffna</h3>
+                <p>Price: $350,000</p>
+                <p>4 Bedrooms, 3 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('northern1')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="familyhomekilinochi.jpg" alt="House in Northern Province">
+                <h3>Family Home - Kilinochchi</h3>
+                <p>Price: $220,000</p>
+                <p>3 Bedrooms, 2 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('northern2')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="vavuniya.jpeg" alt="House in Northern Province">
+                <h3>Luxury Bungalow - Vavuniya</h3>
+                <p>Price: $400,000</p>
+                <p>5 Bedrooms, 4 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('northern3')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="trinco.jpg" alt="House in Eastern Province">
+                <h3>Luxury Beach House - Trincomalee</h3>
+                <p>Price: $500,000</p>
+                <p>5 Bedrooms, 4 Bathrooms, Pool</p>
+                <button class="view-btn" onclick="openDetails('eastern1')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="batticalo.jpg" alt="House in Eastern Province">
+                <h3>Cozy Cottage - Batticaloa</h3>
+                <p>Price: $180,000</p>
+                <p>2 Bedrooms, 1 Bathroom</p>
+                <button class="view-btn" onclick="openDetails('eastern2')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="ampara.webp" alt="House in Eastern Province">
+                <h3>Spacious Villa - Ampara</h3>
+                <p>Price: $450,000</p>
+                <p>4 Bedrooms, 3 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('eastern3')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="lux colombo.jpg" alt="House in Western Province">
+                <h3>Luxury Apartment - Colombo</h3>
+                <p>Price: $750,000</p>
+                <p>4 Bedrooms, 4 Bathrooms, Sea View</p>
+                <button class="view-btn" onclick="openDetails('colombo1')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="moden bengo negombo.jpeg" alt="House in Western Province">
+                <h3>Modern Bungalow - Negombo</h3>
+                <p>Price: $400,000</p>
+                <p>3 Bedrooms, 2 Bathrooms, Garden</p>
+                <button class="view-btn" onclick="openDetails('colombo2')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="panandura.jpeg" alt="House in Western Province">
+                <h3>Contemporary House - Panadura</h3>
+                <p>Price: $500,000</p>
+                <p>5 Bedrooms, 3 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('colombo3')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="kalutara.jpg" alt="House in Western Province">
+                <h3>Family Home - Kalutara</h3>
+                <p>Price: $350,000</p>
+                <p>3 Bedrooms, 2 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('colombo4')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="galle.jpeg" alt="House in Southern Province">
+                <h3>Beachfront Villa - Galle</h3>
+                <p>Price: $600,000</p>
+                <p>5 Bedrooms, 4 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('southern1')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="matara.webp" alt="House in Southern Province">
+                <h3>Charming House - Matara</h3>
+                <p>Price: $250,000</p>
+                <p>3 Bedrooms, 2 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('southern2')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="central before.jpeg" alt="House in Southern Province">
+                <h3>Luxurious Villa - Hambantota</h3>
+                <p>Price: $700,000</p>
+                <p>6 Bedrooms, 5 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('southern3')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="/kandy.jpg" alt="House in Central Province">
+                <h3>Hilltop Villa - Kandy</h3>
+                <p>Price: $450,000</p>
+                <p>4 Bedrooms, 3 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('central1')">View Details</button>
+            </div>
+            <div class="house-card">
+                <img src="nuwarelia.jpg" alt="House in Central Province">
+                <h3>Luxury Bungalow - Nuwara Eliya</h3>
+                <p>Price: $500,000</p>
+                <p>5 Bedrooms, 4 Bathrooms</p>
+                <button class="view-btn" onclick="openDetails('central2')">View Details</button>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Modal for House Details -->
+    <div id="houseDetailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalPrice"></p>
+            <p id="modalDetails"></p>
+            <p><strong>Owner Name:</strong> <span id="modalOwner"></span></p>
+            <p><strong>Contact Number:</strong> <span id="modalContact"></span></p>
+            <p><strong>Address:</strong> <span id="modalAddress"></span></p>
+            <button class="interest-btn" onclick="sendInterestMessage()">I'm Interested to Buy</button>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 HouseFinder. All rights reserved.</p>
+    </footer>
+
+
+    <script src="availablehouses.js"></script>
+</body>
+
+</html>

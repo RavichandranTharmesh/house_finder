@@ -1,0 +1,210 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    color: #00796b;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #00796b;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #004d40;
+}
+
+/* Forms */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.textbox input:focus {
+    border-color: #00796b;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004d40;
+}
+
+/* Footer */
+footer {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1440px) {
+    header nav ul {
+        gap: 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    header nav ul {
+        gap: 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .textbox input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+    }
+}

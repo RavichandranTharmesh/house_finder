@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+
+<body>
+        <!-- Header Section -->
+        <header>
+            <div class="logo">
+                <h1>HouseFinder</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="availablehouse.html">Available Houses</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="login.html">Log out</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+    <section id="contact">
+        <!-- Contact Page Heading -->
+        <h1>Contact Us</h1>
+
+        <!-- Brief Information Section -->
+        <div class="info">
+            <p>We value your feedback and inquiries! Please feel free to reach out with any questions, suggestions, or concerns. Our team is here to assist you!</p>
+        </div>
+
+        <!-- Location Section -->
+        <div class="location">
+            <h2>Our Location</h2>
+            <p>Visit us at our office:</p>
+            <address>
+                123 Main Street, Mannar, Srilanka.<br>
+                <a href="https://www.google.com/maps" target="_blank">View on Google Maps</a>
+            </address>
+
+            <!-- Contact Information -->
+            <p><strong>Email:</strong> <a href="mailto:contact@company.com">tharmesh@house.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+123456789">+9476767898</a></p>
+            <p><strong>Fax:</strong> <a href="fax:+123456789">+94765445678</a></p>
+
+            <!-- Office Hours -->
+            <h3>Office Hours:</h3>
+            <p>Monday to Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday: 10:00 AM - 2:00 PM</p>
+            <p>Sunday: Closed</p>
+
+            <!-- Social Media Links -->
+            <h3>Follow Us:</h3>
+            <p>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+                <a href="https://twitter.com" target="_blank">Twitter</a> | 
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is your return policy?</h3>
+                <p>We offer a 30-day return policy for all products. Please refer to our returns page for more details.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I track my order?</h3>
+                <p>You can track your order using the tracking number provided in your confirmation email.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I update my order after placing it?</h3>
+                <p>Orders can be modified within 24 hours of placement. Please contact us as soon as possible if you need to make a change.</p>
+            </div>
+        </div>
+
+        <!-- Customer Feedback Form -->
+        <div class="feedback-form">
+            <h2>Leave Your Feedback</h2>
+            <p>We'd love to hear from you! Please share your thoughts below:</p>
+            <form id="feedback-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Feedback" required></textarea>
+                <label for="rating">Rate Us:</label>
+                <select id="rating" name="rating" required>
+                    <option value="1">1 - Poor</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="3">3 - Good</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="5">5 - Excellent</option>
+                </select>
+                <button type="submit">Submit Feedback</button>
+                <p id="response-message" class="response-message"></p>
+            </form>
+        </div>
+    </section>
+     <!-- Footer Section -->
+     <footer>
+        <p>&copy; 2024 HouseFinder. All rights reserved.</p>
+    </footer>
+
+    <!-- Include JavaScript for form submission handling -->
+    <script src="contactus.js"></script>
+</body>
+
+</html>
