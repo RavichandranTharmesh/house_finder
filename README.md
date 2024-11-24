@@ -17,7 +17,6 @@ JavaScript: For adding interactivity and dynamic functionality
 ![hf1](https://github.com/user-attachments/assets/b1410c39-6ff9-4bb8-bed4-94fa2e1c5ca8)
 ![hf2](https://github.com/user-attachments/assets/b28d6fde-8a00-4bf2-bca2-4597fad6eef9)
 ![hf3](https://github.com/user-attachments/assets/aac57dc7-ed98-4b46-8f5e-8d5c887adbd5)
-![hf6](https://github.com/user-attachments/assets/d0d3d23b-8c70-492f-9781-7758849dca2b)
 
 
 🤝 Contributing
